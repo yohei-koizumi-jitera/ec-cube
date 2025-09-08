@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@composio/mcp": "^1.0.9",
     "@popperjs/core": "^2.11.8",
     "ace-builds": "^1.32.3",
     "bootstrap": "^5.3.3",
