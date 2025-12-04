@@ -28,19 +28,6 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\Routing\Annotation\Route;
 
-use Doctrine\DBAL\Exception\ForeignKeyConstraintViolationException;
-use Eccube\Controller\AbstractController;
-use Eccube\Entity\Customer;
-use Eccube\Entity\CustomerAddress;
-use Eccube\Event\EccubeEvents;
-use Eccube\Event\EventArgs;
-use Eccube\Form\Type\Front\CustomerAddressType;
-use Eccube\Repository\CustomerAddressRepository;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Symfony\Component\Routing\Annotation\Route;
-
 class CustomerDeliveryEditController extends AbstractController
 {
     private CustomerAddressRepository $customerAddressRepository;
